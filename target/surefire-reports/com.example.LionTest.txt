@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: com.example.LionTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.042 s <<< FAILURE! - in com.example.LionTest
+getFoodIsCorrect(com.example.LionTest)  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.AssertionError: 
+Некорректный список еды
+Expected: <[Пища]>
+     but: was <[]>
+	at com.example.LionTest.getFoodIsCorrect(LionTest.java:65)
+
+incorrectLionSexTest(com.example.LionTest)  Time elapsed: 0.005 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...ола животного - саме[й] или самка> but was:<...ола животного - саме[ц] или самка>
+	at com.example.LionTest.incorrectLionSexTest(LionTest.java:37)
+
